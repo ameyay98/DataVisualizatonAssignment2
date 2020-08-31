@@ -45,7 +45,7 @@ function draw() {
     textSize(12);
     text(k*1000,90,maxValue + 100 -k);
     if(k!=0)
-      Sline(leftMargin - 5, maxValue+100 - k, leftMargin+5, maxValue+100 -k);
+      line(leftMargin - 5, maxValue+100 - k, leftMargin+5, maxValue+100 -k);
   }
   line(leftMargin,maxValue+100, rightMargin, maxValue+100);
   triangle(rightMargin, maxValue+90, rightMargin, maxValue+110, rightMargin+10, maxValue+100);
