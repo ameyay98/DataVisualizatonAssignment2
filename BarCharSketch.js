@@ -43,7 +43,7 @@ function draw() {
   fill(0);
   for (var k=0;k<maxValue+100;k=k+50){
     textSize(12);
-    text(k*1000,90,maxValue + 100 -k);
+    text(k*10000,90,maxValue + 100 -k);
     if(k!=0)
       line(leftMargin - 5, maxValue+100 - k, leftMargin+5, maxValue+100 -k);
   }
