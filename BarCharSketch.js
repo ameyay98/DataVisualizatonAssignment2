@@ -31,7 +31,7 @@ function windowResized() {
 function draw() {
   background(220);
   for (var i = 1; i < 13 ; i++) {
-    fill(0);h
+    fill(0);
     textSize(14);
     textAlign(CENTER);
     text(date[i], i * 70 + 120, maxValue+120);
