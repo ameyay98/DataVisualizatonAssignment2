@@ -79,6 +79,7 @@ function draw() {
     fill(0);
     text(maxValue,15*50 + 150, 140);
     text(minValue,15*50 + 160, 330);
+    text("Delay", 15*50 + 170, 120);
     stroke(0);
     strokeWeight(0.7);
     textSize(18);
