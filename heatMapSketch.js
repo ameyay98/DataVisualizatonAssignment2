@@ -79,12 +79,15 @@ function draw() {
     fill(0);
     text(maxValue,15*50 + 150, 140);
     text(minValue,15*50 + 160, 330);
-    text("Delay", 15*50 + 170, 120);
+    text("Delay", 15*50 + 190, 120);
     stroke(0);
     strokeWeight(0.7);
     textSize(18);
     text("Total Minutes Delayed due to weather in the year 2009 across 6 cities", 190, 70);
     text("Months",9*50, bottomMargin+150);
+    translate(130,bottomMargin );
+    rotate( radians(270) );
+    text("Airport Code", 0,0);
 
 }
 
